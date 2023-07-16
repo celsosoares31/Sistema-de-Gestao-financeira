@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Login page</title>
+    <link
+      rel="stylesheet"
+      href="../style/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <div id="user-profile-photo">
+      <i class="fa fa-user-circle"></i>
+    </div>
+    <form
+      action=""
+      method="post"
+      enctype="multipart/form-data">
+      <div class="form-inputs">
+        <div class="input">
+          <i class="fa fa-user"></i>
+          <input
+            id="username"
+            type="text"
+            placeholder="Username" />
+        </div>
+        <div class="input">
+          <i class="fa fa-lock"></i>
+          <input
+            id="password"
+            type="password"
+            placeholder="Password" />
+        </div>
+      </div>
+      <div class="form-links">
+        <div class="link">
+          <label for="remember">Remember Me!</label>
+          <input
+            type="checkbox"
+            id="remember" />
+        </div>
+        <a
+          class="link"
+          href=""
+          >Forgot Password?</a
+        >
+      </div>
+      <div class="form-btn">
+        <button
+          type="submit"
+          id="btn-login">
+          LOGIN
+        </button>
+        <button id="btn-cancelar">CANCEL</button>
+      </div>
+    </form>
+
+    <script src="../javascript/main.js"></script>
+  </body>
+</html>
