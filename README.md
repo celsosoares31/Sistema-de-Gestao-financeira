@@ -4,7 +4,7 @@
 
 ### npm install
 
-## 2. É necessario adicionar um arquivo .env na raiz do projecto, depois incluir as variaveis de ambiente a seguir:
+> ## 2. É necessario adicionar um arquivo .env na raiz do projecto, depois incluir as variaveis de ambiente a seguir:
 
 ### DB_NAME
 
