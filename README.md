@@ -1,6 +1,11 @@
 # PROJECTO DE UM SISTEMA DE GESTAO
 
-> ## 1. Instalacao dos pacotes
+> ## 1. Navege ate a raiz do projecto, depois acesse o directorio back-end/
+```
+cd back-end
+
+```
+> ## 2. Instalacao dos pacotes
 
 ```
 npm install
