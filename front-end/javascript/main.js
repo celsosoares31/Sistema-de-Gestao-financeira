@@ -4,7 +4,7 @@ const userNameInput = document.querySelector('#username');
 const passwordInput = document.querySelector('#password');
 
 const password = 123456;
-const userName = 'Celso';
+const userName = 'admin';
 
 btnLogin.addEventListener('click', (e) => {
   e.preventDefault();
